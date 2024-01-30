@@ -1,0 +1,99 @@
+body{
+    background-image: url(../src/img/FondoLogin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gradient-custom-2 {
+    background: #fff;
+}
+
+.legend {
+    padding-top: 5%;
+}
+
+img {
+    border: none;
+}
+
+#banner{
+    width: 394px;
+}
+
+#idLogin{
+    background-color: #DE6810;
+    color: #fff;
+}
+
+.small.mb-0 {
+    margin-top: 5%;
+    font-size: 20px;
+    color: white;
+}
+
+@media (min-width: 768px) {
+    .gradient-form {
+        height: 100vh !important;
+    }
+}
+
+@media (min-width: 769px) {
+    .gradient-custom-2 {
+        border-top-right-radius: .3rem;
+        border-bottom-right-radius: .3rem;
+    }
+}
+
+#idError{
+    color: red;
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+
+.form-label {
+    transform-origin: top left;
+  }
+
+  input
+
+
+input:focus #idLabel{
+    display: none;
+}
+
+
+
+#btnAccount{
+    background-color: #DE6810;
+    color: #fff;
+}
+
+#btnAccount2{
+    color: #fff;
+}
+
+#sectionText{
+    background-color: rgba(0, 0, 0, 0.66);
+    color: #fff;
+}
+
+
+#sectionText a{
+    color: #fff;
+}
+
+#layoutText{
+    background-color: unset;
+}
+
+#legendText{
+    font-size: 30px;
+}
+
+#idLabel{
+    color: #fff;
+}
+
+#idLabelPass{
+    color: #fff;
+}

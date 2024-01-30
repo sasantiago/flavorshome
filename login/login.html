@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="login.css" />
+    <link rel="icon" href="../src/img/logo.png" type="image/x-icon" />
+    <title>Flavors</title>
+  </head>
+
+  <body>
+    <section
+      class="h-100 gradient-form"
+      style="background-color: rgba(221, 238, 238, 0.498)"
+    >
+      <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col-xl-10">
+            <div class="card rounded-3 text-black" id="layoutText">
+              <div class="row g-0">
+                <div
+                  class="col-lg-6 d-flex align-items-center gradient-custom-2"
+                >
+                  <div class="px-3 py-4 p-md-5 mx-md-4">
+                    <img src="../src/img/logo.png" alt="" id="banner" />
+                  </div>
+                </div>
+                <div class="col-lg-6" id="sectionText">
+                  <div class="card-body p-md-5 mx-md-4">
+                    <div class="text-center">
+                      <img
+                        src="../src/img/iconoUser.png"
+                        style="width: 120px"
+                        alt="logo"
+                      />
+                    </div>
+
+                    <form>
+                      <p class="legend text-center" id="legendText">
+                        Por favor ingrese su cuenta
+                      </p>
+
+                      <div class="mb-4">
+                        <label class="form-label" id="idLabel">Correo</label>
+                        <input
+                          type="email"
+                          id="idEmail"
+                          class="form-control"
+                          placeholder="Correo electrónico"
+                        />
+                      </div>
+
+                      <div class="mb-4">
+                        <label class="form-label" id="idLabelPass"
+                          >Contraseña</label
+                        >
+                        <input
+                          type="password"
+                          id="idPassword"
+                          class="form-control"
+                        />
+                      </div>
+
+                      <a href="../HTML/index.html">
+                        <div class="text-center pt-1 mb-5 pb-1">
+                          <button
+                            class="btn btn-block fa-lg mb-3"
+                            type="button"
+                            id="idLogin"
+                            onclick="autenticarUsuario()"
+                          >
+                            Log in
+                          </button>
+                          <a class="text-muted" href="#!"
+                            >¿Olvidaste la contraseña?</a
+                          >
+                        </div>
+                      </a>
+
+                      <div id="idError"></div>
+
+                      <div
+                        class="d-flex align-items-center justify-content-center pb-4 gap-2"
+                      >
+                        <p class="mb-0 me-2">¿No tienes una cuenta?</p>
+                        <button type="button" class="btn" id="btnAccount">
+                          Crea cuenta de usuario
+                        </button>
+                        <button type="button" class="btn" id="btnAccount2">
+                          Crea cuenta de cocinero
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="login.js"></script>
+    <script>
+      function autenticarUsuario() {
+        let email = document.getElementById("idEmail").value;
+        let password = document.getElementById("idPassword").value;
+        console.log(email, password);
+
+        fetch("http://localhost:3000/usuarios")
+          .then((r) => r.json())
+          .then((data) => {
+            filtro = data.filter(function (d) {
+              return d.email == email;
+            });
+
+            if (filtro.length > 0) {
+              if (filtro[0].password == password) {
+                window.location.href = "../index.html";
+              } else {
+                console.log("Correo o contraseña incorrectos");
+              }
+            }
+            console.log(filtro);
+          });
+      }
+    </script>
+  </body>
+</html>
