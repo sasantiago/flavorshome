@@ -2,6 +2,7 @@
     
     padding: 0%;
     margin: 0%;
+    box-sizing: border-box;
 }
 
 p {
@@ -104,6 +105,12 @@ nav ul li a:hover {
   font-size: 50px;
   color: #de6810;
   margin: 15px 0px 15px 0px;
+}
+
+.classAboutDos {
+  font-size: 24px;
+  color: #de6810;
+  padding-top: 4%;
 }
 
 #idPAbout {
