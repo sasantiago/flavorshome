@@ -68,3 +68,19 @@
     background-color: #64875c;
     color: white;
   }
+
+  .carousel-image{
+    height: 400px;
+    object-fit: cover;
+  }
+
+  #btn7{
+    background-color: #64875c;
+/*     width: 40%; */
+    color: #fff;
+    margin: 4%;
+  }
+  
+  #btn7:hover{
+    transform: scale(1.03);
+  }
