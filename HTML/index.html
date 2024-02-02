@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="../css/style.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <!-- <script src="../login/login.js"></script> -->
   <title>Flavors</title>
   <link rel="shortcut icon" href="../src/img/logo.png" type="image/x-icon" />
 </head>
@@ -87,7 +88,7 @@
           consectetur adipiscing elit. Nullam ut ornare<br />risus, quis
           rutrum purus.<br />
         </p>
-        <a href="7.html">
+        <a href="./7.html">
         <button type="button" class="btn py-3 px-5" id="btn3">
           Sobre la página
         </a>
@@ -342,25 +343,28 @@
   <!----------------------------------------------------------------------  INICIO CONTACTO -->
 
   <div class="container mt-5" id="ContactUS">
-    <form class="formulario">
+    <form class="formulario" id="form"> <!-- Add id="form" to the form element -->
       <h2 class="classAbout text-center">Contáctanos</h2>
       <div class="mb-4">
         <label for="name" class="form-label">Nombre</label>
-        <input type="text" class="form-control" id="nameCont" placeholder="Ingresa tu nombre" />
+        <input type="text" class="form-control" id="nameCont" name="name" placeholder="Ingresa tu nombre" />
       </div>
       <div class="mb-4">
         <label for="email" class="form-label">Correo</label>
-        <input type="email" class="form-control" id="emailCont" placeholder="Ingresa tu email" />
+        <input type="email" class="form-control" id="emailCont" name="email" placeholder="Ingresa tu email" />
       </div>
       <div class="mb-4">
         <label for="message" class="form-label">Mensaje</label>
-        <textarea class="form-control" id="message" rows="3" placeholder="Mensaje..."></textarea>
+        <textarea class="form-control" id="message" name="message" rows="3" placeholder="Mensaje..."></textarea>
       </div>
       <div class="text-center">
         <button type="submit" class="btn mb-5" id="btn5">Enviar</button>
       </div>
     </form>
   </div>
+  
+  <!-- Add an anchor tag with id "trucazo" for the mailto link -->
+  <a href="#" id="trucazo" style="display: none;"></a>
   <section class="">
     <!-- Footer -->
     <footer class="bg-body-tertiary text-center text-md-start">
@@ -432,6 +436,20 @@
     </footer>
     <!-- Footer -->
   </section>
+  <script>
+    const $form = document.querySelector('#form')
+    const $buttonMailto = document.querySelector('#trucazo')
+  
+    $form.addEventListener('submit', handleSubmit)
+  
+    function handleSubmit(event) {
+      event.preventDefault()
+      const form = new FormData(this)
+      $buttonMailto.setAttribute('href', `mailto:flavors.at.home.official@gmail.com?subject=Nombre:${form.get('name')} Correo:${form.get('email')}&body=${form.get('message')}`)
+      $buttonMailto.click()
+    }
+  </script>
+  
 </body>
 
 </html>
