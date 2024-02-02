@@ -69,12 +69,15 @@ input:focus #idLabel{
 }
 
 #btnAccount2{
-    color: #fff;
+    background-color: #fff;
+    color: #DE6810;
+    font-weight: bolder;
 }
 
 #sectionText{
     background-color: rgba(0, 0, 0, 0.66);
     color: #fff;
+    border-radius: 0rem 5rem 5rem 0rem;
 }
 
 
