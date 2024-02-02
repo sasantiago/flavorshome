@@ -14,6 +14,63 @@
             "email": "test2@test",
             "password": "password"
         }
-    ] 
+    ] ,
 
-}
+    "platos":[
+        {
+            "Nombre":"Ratatouille",
+            "Descripcion":"Esta receta originaria de Francia se ha popularizado a diferentes regiones del mundo¿y cómo no?",
+            "Ingredientes":[
+                "1 frasco de Salsa Pomodoro",
+                "2 dientes de ajo finamente picados",
+                "4 cucharadas de cebolla cabezona finamente picada",
+                "1 Zucchini amarillo mediano",
+                "1 Zucchini verde mediano",
+                "1 berenjena delgada y larga (también puedes usar 2 que sean de tamaño mediano)",
+                "2 pimentones rojos o naranjas pequeños",
+                "3 tomates chontos grandes",
+                "2 tallos de tomillo",
+                "2 ½ cucharadas de Aceite Olivetto",
+                "Sal y pimienta al gusto",
+                "Hojas pequeñas de albahaca"
+
+            ],
+            "preparacion":"Precalienta el horno a 375°F (190°C.). Sofríe la cebolla y el ajo en una sartén, rociada con aceite Olivetto®. Mezcla el sofrito con la Salsa Pomodoro y viértela en el fondo de una refractaria redonda u ovalada en la que vayas a hacer tu Ratatouille. Corta la berenjena en tajadas muy delgadas, espolvoréales un poco de sal y ponlas en una rejilla o en un colador para que escurran. Corta los zucchinis y el pimentón en tajadas (procura que sean del mismo grosor que las berenjenas). Organiza los vegetales en la refractaria poniendo una tajada de cada uno e intercalándolos. Empieza por la parte exterior hasta llenar la primera hilera. Continúa con la siguiente fila de vegetales hasta que llenes el círculo, y asegúrate de poner los vegetales que hagan falta para llenar la superficie. Rocía generosamente con el aceite de oliva y espolvorea tomillo, sal y pimienta. Recorta un círculo de papel parafinado de forma tal que quede ajustado en el centro de la refractaria y con el que puedas cubrir toda la superficie. Hornea por 40 50 minutos. Para finalizar, pon hojas de albahaca por encima del Ratatouille para decorar.",
+            "Tiempo":"1 o 2 días con anterioridad"
+        }
+    ],
+
+    "platos":[
+        
+{
+    "Nombre": "Empanadas Colombianas",
+    "Descripcion": "Ponlaaaaaaaaaaa",
+    "Ingredientes": [
+      "Para el Relleno:",
+      "1 Kg carne especial para desmechar (Falda o Peceto)",
+      "1/2 kg papas de primera",
+      "1 cucharada sal",
+      "3 cucharadas aceite",
+      "1/2 Kg cebolla (usa la variedad que quieras) finamente picada",
+      "Pimentón dulce y especias al gusto (triguisar colombiano)",
+      "1/2 taza (100 gr) tomate finamente picado (sin piel y sin semillas)",
+      "1/2 cucharada sal",
+      "1/2 taza (25 gr) cilantro finamente picado (opcional)",
+      "1/4 cucharadita comino en polvo",
+      "Para la masa:",
+      "6 tazas (1500 ml) agua templada",
+      "1 cubito caldo de carne",
+      "Al gusto especias sazonadoras",
+      "1 cucharada colorante",
+      "1 cucharada sal",
+      "2 cucharadas mantequilla ablandada",
+      "6 tazas (1 kg) harina de maíz pre-cocida (para arepas)",
+      "2 cucharadas almidón de Yuca (mandioca)",
+      "1 huevo",
+      "1 Jugo de 1 limón",
+      "c/n Aceite para Freír",
+      "Ají picante (encurtido) y limón para acompañar"
+    ],
+    "preparacion": "Paso a paso\nPaso 1\nPreferiblemente el día anterior.Lave las papas con esponja y/o lejía de cocina. Agréguelas a una olla, cúbralas con suficiente agua y agregue la sal. Cocínelas por 25 minutos a fuego medio o hasta que estén blandas.Cuando las papas estén listas, escúrralas y déjelas reposar, luego ponlas en la nevera.\nPaso 2\nCocinar la carne condimentada al gusto en una olla exprés por cerca de 25 minutos. dejar reposar y desmechar a mano o con un tenedor. Reservar\nPaso 3\nCuando las papas estén frías rallarlas o triturarlas\nPaso 4\nPara hacer la masa, coloque el agua templada en un recipiente, agregue el almidón de yuca, el colorante y sazonador, el cubito de caldo de pollo, la sal, y la mantequilla. Añade la harina de maíz y dejar que el agua la absorba completamente.\nPaso 5\nRevuelva y amase bien para mezclar todos los ingredientes. Añada el huevo. En el amasado puede añadirle el limón e incluso un chorrito de brandy.\nPaso 6\nPreparar un sofrito (guiso) añadiendo el aceite en una sartén a fuego medio. Añade la cebolla y dejar pochar (coge un color brillante). Agregue el ajo, el tomate, el pimentón dulce, el color o azafrán y las especias en polvo, la sal, el cilantro y el comino. Cocinar este guiso por unos 15 minutos.\nPaso 7\nIntegrar la carne desmechada y dejar cocinar a fuego bajo por 5-10 minutos, añadir la papa rallada y mezclar hasta integrar todos los ingredientes. Dejar reposar el relleno\nPaso 8\nPara armar las empanadas colocar una bolita de masa entre dos pedazos de plástico o una prensa tortillera o pataconera y presionarla, debe quedar como una arepa redonda delgada. Si lo hace con el plástico puede ayudarse de un rodillo o una botella.\nPaso 9\nAgregue una cucharada de relleno a la masa. Doble el círculo de la masa a la mitad para formar una media luna. Corte el borde de esta media luna con un molde corta pasta o una taza. Así queda formada la empanada y la sellará al mismo tiempo. Otra forma de armar las empanadas es sellando el borde con los de dedos y luego doblarlo hacia adentro para que esté más seguro.\nPaso 10\nA medida que vamos armando las empanadas las vamos fritando en una freidora con suficiente aceite pre-calentado (180ºC). También las pueden freír en una olla o sartén en el fogón a temperatura medio-alto. Frite las empanadas hasta que estén doradas. Luego escúrreles el aceite.\nPaso 11\nSírvelas con ají picante o guacamole o alguna salsa al gusto. Y Buen Provecho !!!!",
+    "Tiempo": "1 o 2 días con anterioridad"
+  },
