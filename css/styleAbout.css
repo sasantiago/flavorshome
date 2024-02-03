@@ -4,23 +4,25 @@
 }
 
 
-#btnAbout1 {
+#btnPreparacion1 {
     background-color: #de6810;
     border: none;
     color: #fff;
+    padding: 2% 4%;
   }
   
-  #btnAbout1:hover {
+  #btnPreparacion1:hover {
     transform: scale(1.03);
   }
   
-  #btnAbout2 {
+  #btnPreparacion2 {
     background-color: #64875c;
     border: none;
     color:#fff ;
+    padding: 2% 4%;
   }
   
-  #btnAbout2:hover {
+  #btnPreparacion2:hover {
     transform: scale(1.03);
   }
 

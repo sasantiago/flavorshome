@@ -108,6 +108,19 @@
             background-color: #45a049;
           }
 
+          #sectionImage {
+            background-image: url("../src/img/pizza-4282169.jpg");
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            height: 85vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
     </style>
 </head>
 <body>
@@ -156,15 +169,34 @@
     <div class="container-fluid p-0">
         <div class="row m-0">
 
-            <div class="col-md-6 mb-5">
-                <div class="img1"></div>
-            </div>
-
-            <div class="col-md-6 mb-5">
-                <div class="contenedor1">Solicitar cocinero
-                    <p>.</p>
+          <section id="sectionAbout">
+            <div class="row w-100">
+              <div class="col-6 p-0">
+                <div id="sectionImage"></div>
+              </div>
+              <div class="col-6 text-center p-0" id="sectionText">
+                <img src="../src/img/logo.png" class="w-50" alt="logo">
+                <p id="idPAbout2">
+                  Lorem ipsum dolor sit amet, consectetur<br />adipiscing elit. Nullam
+                  ut ornare risus, quis<br />rutrum purus lorem ipsum dolor sit
+                  amet,<br />
+                  consectetur adipiscing elit. Nullam ut ornare<br />risus, quis
+                  rutrum purus.<br />
+                </p>
+                <div class="d-flex justify-content-center gap-3">
+                  <a href="categorias.html">
+                    <button type="button" class="btn py-3 px-4" id="btnAbout1">
+                      categorias
+                  </a>
+                  <a href="contacto.html">
+                    <button type="button" class="btn py-3 px-4" id="btnAbout2">
+                      Contáctanos
+                  </a>
+                  </button>
                 </div>
+              </div>
             </div>
+          </section>
 
 
             <div class="col-md-6 mb-5">
