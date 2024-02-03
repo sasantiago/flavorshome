@@ -1,15 +1,25 @@
-var template = "";
 
-root = document.getElementById('root');
-plato=localStorage.getItem('plato');
+async function obtenerDetallesPlato(plato) {
+    try {
+        const response = await fetch(`http://localhost:3000/platos/${plato}`);
+        if (!response.ok) {
+            throw new Error('Error al obtener detalles del plato.');
+        }
+        return await response.json();
+    } catch (error) {
+        console.error(error);
+        // Puedes manejar el error de alguna manera (por ejemplo, mostrar un mensaje al usuario)
+        return null;
+    }
+}
 
-fetch(`http://localhost:3000/platos/${plato}`).then(r => r.json()).then(element => {
-
-
-
-    template += `
-<center><h2>${element.Nombre}</h2></center>
-<div class="row">
+// Función para renderizar detalles del plato en el HTML
+function renderizarDetallesPlato(element) {
+    if (element) {
+        const root = document.getElementById('root');
+        const template = `
+            <center><h2>${element.Nombre}</h2></center>
+            <div class="row">
     <div class="col-md-6">
         <div class="card">
             <img src="${element.url}" alt="">
@@ -34,8 +44,17 @@ fetch(`http://localhost:3000/platos/${plato}`).then(r => r.json()).then(element 
         <button type="button" class="btn btn-success">Success</button>
         <button type="button" class="btn btn-warning">Warning</button>
     </div>
-</div>`;
+</div>
+        `;
+        root.innerHTML = template;
+    } else {
+        console.error('Los detalles del plato no están disponibles.');
+    }
+}
 
+// Obtener el identificador del plato desde el almacenamiento local
+const platoId = localStorage.getItem('plato');
 
-root.innerHTML = template;
-});
+// Obtener detalles del plato y renderizar en el HTML
+obtenerDetallesPlato(platoId)
+    .then(element => renderizarDetallesPlato(element));

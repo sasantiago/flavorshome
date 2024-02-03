@@ -1,9 +1,9 @@
 var template = "";
 
-    root = document.getElementById('root');
-    
+root = document.getElementById('root');
+platox=localStorage.getItem('plato');    
 
-    fetch("http://localhost:3000/platos").then(r => r.json()).then(d => {
+    fetch(`http://localhost:3000/platos/`).then(r => r.json()).then(d => {
 
             d.forEach(element => {
 
@@ -22,10 +22,11 @@ var template = "";
             </div>
           </div>`;
 
+          root.innerHTML = template;
             });
 
-            root.innerHTML = template;
         });
+      
 
         function search() {
             let q = document.getElementById('searchBanner').value;
@@ -42,16 +43,14 @@ var template = "";
                     if (q.length > 0) {
                         let s = '';
                         filtro.forEach(plato => {
-                            s += `<button type="button" class="btn btn-link">${plato.Nombre}</button>`;
+                            s += `<a href="../HTML/chef2.html?id=${plato.id}">
+                                    <button onclick="localStorage.setItem('plato', '${plato.id}');" type="button" class="btn btn-link">${plato.Nombre}</button>
+                                  </a>`;
                         });
                         spacesearch.innerHTML = s;
-                        q = ''; 
-                    }else if (q.length<=0) {
+                    } else if (q.length <= 0) {
                         spacesearch.innerHTML = '';
-                    }{
-
                     }
                 });
         }
-        
         
