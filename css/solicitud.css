@@ -1,0 +1,34 @@
+.header-background2 {
+    background-color: black;
+  }
+
+  footer {
+    background-color: #fbfbfb;
+  }
+
+  #btn8 {
+    background-color: #64875c;
+    color: #fff;
+    margin: 4%;
+  }
+ 
+  #btn8:hover {
+    transform: scale(1.03);
+  }
+
+  .iconos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .icono{
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+  }
+
+  .iconosTexto{
+    font-size: 16px;
+  }

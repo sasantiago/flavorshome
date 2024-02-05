@@ -2,27 +2,6 @@
    background-color: black;
  }
 
- /* #btn1 {
-    background-color: #de6810;
-    border: none;
-    padding: 10%;
-  }
-  
-  #btn1:hover {
-    transform: scale(1.03);
-  }
-  
-  #btn2 {
-    background-color: #64875c;
-    border: none;
-    padding: 10%;
-  }
-  
-  #btn2:hover {
-    transform: scale(1.03);
-  } */
-
-
  .stars {
    width: 200px;
  }
@@ -48,7 +27,6 @@
 
  #btn7 {
    background-color: #64875c;
-   /*     width: 40%; */
    color: #fff;
    margin: 4%;
  }
