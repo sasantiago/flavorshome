@@ -40,28 +40,31 @@
 //     });
 // }
 function autenticarUsuario() {
-  let email = document.getElementById("idEmail").value;
-  let password = document.getElementById("idPassword").value;
+  let email = document.getElementById("correo").value;
+  let password = document.getElementById("password").value;
   console.log(email, password);
+  let error =document.getElementById("error")
+   var errores='';
 
   fetch("http://localhost:3000/usuarios")
     .then((r) => r.json())
     .then((data) => {
       filtro = data.filter(function (d) {
-        return d.email == email;
+        return (d.email == email && d.password == password);
       });
 
-      if (filtro.length > 0) {
-        if (filtro[0].password == password) {
+    if (filtro!=''){
           location.href = "../HTML/index.html";
           localStorage.setItem("autenticado","si");
-        } else {
-          alert("Correo o contraseña incorrectos");
         } 
-      }
-      console.log(filtro);
-    });
-}
+        else {
+          console.log("error");
+          errores+=`<h6>Correo o contraseña incorrectos</h6>`
+        } 
+      error.innerHTML=errores;
+    } 
+    
+  )};
 
   function search() {
     const q = document.getElementById('searchBanner').value;

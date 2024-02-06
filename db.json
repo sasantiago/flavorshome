@@ -1,182 +1,226 @@
 {
-    "usuarios": [
-        {
-            "id": 1,
-            "nombre": "Juan",
-            "apellidos": "Pérez",
-            "email": "@tetestst",
-            "password": "password",
-            "Direccion":"Cll9 #56-40"
-        },
-        {
-            "id": 1,
-            "nombre": "Pedro",
-            "apellidos": "Pérez",
-            "email": "test2@test",
-            "password": "password",
-            "Direccion":"Cll9 #56-40"
-        }
-    ],
-    "chefs":[
-        {
-            "nombre": "Pedro",
-            "apellidos": "Pérez",
-            "email": "test2@test",
-            "password": "password",
-            "Eps":"nuevaeps",
-            "arl":"arlcualquiera",
-            "cma":"cursomanipulacionali.pdf",
-            "tipodeidentidad":"cc",
-            "numdeidentidad":"90134902349"
-        },
-        {
-            "nombre": "Lisandro",
-            "apellidos": "Pérez",
-            "email": "test2@test",
-            "password": "password",
-            "Eps":"nuevaeps",
-            "arl":"arlcualquiera",
-            "cma":"cursomanipulacionali.pdf",
-            "tipodeidentidad":"cc",
-            "numdeidentidad":"90134902349"
-        }
-    ],
-    "platos":[
-        {
-            "id":"1",
-            "Nombre":"Ratatouille",
-            "url":"https://i.ibb.co/4mXHGM9/ratatouille.jpg",
-            "categoria":"vegetariana",
-            "Descripcion":"Esta receta originaria de Francia se ha popularizado a diferentes regiones del mundo¿y cómo no?",
-            "Ingredientes":[
-                "1 frasco de Salsa Pomodoro",
-                "2 dientes de ajo finamente picados",
-                "4 cucharadas de cebolla cabezona finamente picada",
-                "1 Zucchini amarillo mediano",
-                "1 Zucchini verde mediano",
-                "1 berenjena delgada y larga (también puedes usar 2 que sean de tamaño mediano)",
-                "2 pimentones rojos o naranjas pequeños",
-                "3 tomates chontos grandes",
-                "2 tallos de tomillo",
-                "2 ½ cucharadas de Aceite Olivetto",
-                "Sal y pimienta al gusto",
-                "Hojas pequeñas de albahaca"
-
-            ],
-            "preparacion":"Precalienta el horno a 375°F (190°C.). Sofríe la cebolla y el ajo en una sartén, rociada con aceite Olivetto®. Mezcla el sofrito con la Salsa Pomodoro y viértela en el fondo de una refractaria redonda u ovalada en la que vayas a hacer tu Ratatouille. Corta la berenjena en tajadas muy delgadas, espolvoréales un poco de sal y ponlas en una rejilla o en un colador para que escurran. Corta los zucchinis y el pimentón en tajadas (procura que sean del mismo grosor que las berenjenas). Organiza los vegetales en la refractaria poniendo una tajada de cada uno e intercalándolos. Empieza por la parte exterior hasta llenar la primera hilera. Continúa con la siguiente fila de vegetales hasta que llenes el círculo, y asegúrate de poner los vegetales que hagan falta para llenar la superficie. Rocía generosamente con el aceite de oliva y espolvorea tomillo, sal y pimienta. Recorta un círculo de papel parafinado de forma tal que quede ajustado en el centro de la refractaria y con el que puedas cubrir toda la superficie. Hornea por 40 50 minutos. Para finalizar, pon hojas de albahaca por encima del Ratatouille para decorar.",
-            "Tiempo":"1 o 2 días con anterioridad"
-        },
-        {
-            "id":"2",
-            "Nombre":"Empanadas Colombianas",
-            "url":"https://i.ibb.co/251wQdz/colombian-beef-and-pork-empanadas.jpg",
-            "categoria":"colombianadas",
-            "Descripcion":"Empanada de la ancestral cocina colombianas, receta centenaria con masa crujiente y relleno sabroso. Tradición en cada mordisco.",
-            "Ingredientes":[
-
-                "Para el Relleno:",
-                "1 Kg carne especial para desmechar (Falda o Peceto)",
-                "1/2 kg papas de primera",
-                "1 cucharada sal",
-                "3 cucharadas aceite",
-                "1/2 Kg cebolla (usa la variedad que quieras) finamente picada",
-                "Pimentón dulce y especias al gusto (triguisar colombiano)",
-                "1/2 taza (100 gr) tomate finamente picado (sin piel y sin semillas)",
-                "1/2 cucharada sal",
-                "1/2 taza (25 gr) cilantro finamente picado (opcional)",
-                "1/4 cucharadita comino en polvo",
-
-                "Para la masa:",
-                "6 tazas (1500 ml) agua templada",
-                "1 cubito caldo de carne",
-                "Al gusto especias sazonadoras",
-                "1 cucharada colorante",
-                "1 cucharada sal",
-                "2 cucharadas mantequilla ablandada",
-                "6 tazas (1 kg) harina de maíz pre-cocida (para arepas)",
-                "2 cucharadas almidón de Yuca (mandioca)",
-                "1 huevo",
-                "1 Jugo de 1 limón",
-                "c/n Aceite para Freír",
-                "Ají picante (encurtido) y limón para acompañar"
-
-            ],
-            "preparacion": "Paso a paso\nPaso 1\nPreferiblemente el día anterior.Lave las papas con esponja y/o lejía de cocina. Agréguelas a una olla, cúbralas con suficiente agua y agregue la sal. Cocínelas por 25 minutos a fuego medio o hasta que estén blandas.Cuando las papas estén listas, escúrralas y déjelas reposar, luego ponlas en la nevera.\nPaso 2\nCocinar la carne condimentada al gusto en una olla exprés por cerca de 25 minutos. dejar reposar y desmechar a mano o con un tenedor. Reservar\nPaso 3\nCuando las papas estén frías rallarlas o triturarlas\nPaso 4\nPara hacer la masa, coloque el agua templada en un recipiente, agregue el almidón de yuca, el colorante y sazonador, el cubito de caldo de pollo, la sal, y la mantequilla. Añade la harina de maíz y dejar que el agua la absorba completamente.\nPaso 5\nRevuelva y amase bien para mezclar todos los ingredientes. Añada el huevo. En el amasado puede añadirle el limón e incluso un chorrito de brandy.\nPaso 6\nPreparar un sofrito (guiso) añadiendo el aceite en una sartén a fuego medio. Añade la cebolla y dejar pochar (coge un color brillante). Agregue el ajo, el tomate, el pimentón dulce, el color o azafrán y las especias en polvo, la sal, el cilantro y el comino. Cocinar este guiso por unos 15 minutos.\nPaso 7\nIntegrar la carne desmechada y dejar cocinar a fuego bajo por 5-10 minutos, añadir la papa rallada y mezclar hasta integrar todos los ingredientes. Dejar reposar el relleno\nPaso 8\nPara armar las empanadas colocar una bolita de masa entre dos pedazos de plástico o una prensa tortillera o pataconera y presionarla, debe quedar como una arepa redonda delgada. Si lo hace con el plástico puede ayudarse de un rodillo o una botella.\nPaso 9\nAgregue una cucharada de relleno a la masa. Doble el círculo de la masa a la mitad para formar una media luna. Corte el borde de esta media luna con un molde corta pasta o una taza. Así queda formada la empanada y la sellará al mismo tiempo. Otra forma de armar las empanadas es sellando el borde con los de dedos y luego doblarlo hacia adentro para que esté más seguro.\nPaso 10\nA medida que vamos armando las empanadas las vamos fritando en una freidora con suficiente aceite pre-calentado (180ºC). También las pueden freír en una olla o sartén en el fogón a temperatura medio-alto. Frite las empanadas hasta que estén doradas. Luego escúrreles el aceite.\nPaso 11\nSírvelas con ají picante o guacamole o alguna salsa al gusto. Y Buen Provecho !!!!",
-            "Tiempo":"1 o 2 días con anterioridad"
-        },
-        {
-            "id":"3",
-            "Nombre":"Pollo a la naranja con ajonjolí",
-            "url":"https://i.ibb.co/8MTX9wC/pollo.jpg",
-            "categoria":"Pollos",
-            "Descripcion":"Pollo a la naranja: fusión asiática que deslumbra. Jugoso pollo con salsa agridulce, un viaje exquisito de sabores sorprendentes.",
-            "Ingredientes":[
-                "1 pechuga de pollo cortada en cubos medianos (453 g) cortada en cubos",
-                "1/2 cucharadita de SAZONADOR NATURISIMO MAGGI® (3 g)",
-                "1/2 taza de fécula de maíz (60 g)",
-                "2 huevos (100 g)",
-                "1 taza de harina de trigo (125 g)",
-                "1 taza de aceite para freír (250 ml)",
-                "1 taza de Jugo de naranja (250 ml)",
-                "1/2 cucharada de Jengibre fresco, finamente picado (5 g)",
-                "1 cucharada de miel (20 ml)",
-                "1 cucharadita de ajonjolí blanco (3 g)",
-                "1 cucharadita de ajonjolí negro (3 g)"
-
-
-            ],
-            "preparacion": "Paso 1: Marina los trozos de pollo\n1.  Pon los cubos de pechuga en un tazón, junto con el SAZONADOR NATURISIMO MAGGI® y marina hasta integrar bien.\nPaso 2: Empaniza los cubos de pollo\n2.  En un tazón pon la fécula, en otro los huevos batidos y en otro la harina de trigo.\n3.  Pasa cada cubo de pollo, primero por la fécula, seguido del huevo y por último de la harina; así hasta terminar.\nPaso 3: Calienta el aceite\n4.  Calienta el aceite en una sartén de fondo alto, por 10 minutos a fuego medio; sofríe los cubos de pollo hasta que estén bien dorados y crocantes. Retira y pon en papel absorbente para retirar el exceso de grasa.\nPaso 4: Prepara la salsa\n5.  En una olla pequeña, añade el jugo de naranja, el jengibre y la miel, lleva a fuego alto revolviendo de vez en cuando y cocina hasta que la salsa reduzca a la mitad.\nPaso 5: Termina la preparación\n6.  Agrega los cubos de pollo empanizados a la sartén de la salsa, deja al fuego por 2 minutos más y espolvorea el ajonjolí, blanco y el ajonjolí negro.\nPaso 6: Sirve\n7.  Sirve el pollo al ajonjolí y acompaña con una porción de arroz y una porción de ensalada.",
-            "Tiempo": "null"
-       
-        },
-        {
-            "id":"4",
-            "Nombre":"Bandeja Paisa",
-            "url":"https://i.ibb.co/rwBZycs/blog-col-bandeja-paisa1.webp",
-            "Descripcion": "Bandeja Paisa: tesoro culinario de Colombia. Carnes, frijoles, arroz, aguacate y plátano, un festín abundante que celebra tradiciones y sabores auténticos.",
-            "Ingredientes": [
-              "1 diente de ajo",
-              "sal al gusto",
-              "4 huevos",
-              "aceite",
-              "200 gramos de cebolla cabezona",
-              "3 unidades de tomate",
-              "2 aguacates",
-              "1 hoja de laurel",
-              "4 chorizos",
-              "1 libra de arroz",
-              "1 pizca de comino",
-              "1 libra de chicharrón",
-              "2 plátanos maduros",
-              "350 gramos de carne picada de ternera",
-              "1 libra de frijol cargamanto",
-              "4 arepas de maíz"
-            ],
-            "preparacion": "Paso 1 / 7\nEl día anterior dejar reposar en un recipiente con agua los frijoles.\n\nPaso 2 / 7\nPara preparar el arroz, agregamos 2 tazas de arroz y el doble de agua, es decir, 4 tazas de agua. Cuando el agua hierva añadir el arroz y la hoja de laurel. Cocinar a fuego medio durante 15 minutos. Apagar el fuego y dejar reposar cinco minutos tapando el recipiente.\n\nPaso 3 / 7\nPara los plátanos vamos a preparar una sartén con aceite. Sacar tajadas a los plátanos y freír hasta que estén dorados, luego dejar reposar en un plato con papel absorbente o de cocina.\n\nPaso 4 / 7\nProcedemos a preparar el hogao. Corta la cebolla y el tomate en dados, picar el ajo en trocitos muy pequeños. Sofreír la cebolla en aceite durante 4 minutos, sazonar con sal y agregar el tomate, incorporar el ajo y el comino, mezclar bien y cocinar durante 2 minutos.\n\nPaso 5 / 7\nEscurrir los frijoles y llevarlos a la olla de presión, añadir el hogao. Cubre con agua y dejar cocinar por 30 minutos aproximadamente.\n\nPaso 6 / 7\nEn una sartén cocinar la carne y el chorizo hasta que estén bien dorados. Luego retirar y en la misma sartén freír los huevos. En otra sartén freír los chicharrones.\n\nPaso 7 / 7\nPara montar la bandeja paisa, colocamos el arroz, los frijoles, las tajadas, la carne picada, el chorizo, los chicharrones y el huevo (arriba del arroz). Cortar el aguacate y adicionar las arepas de maíz y ¡listo a disfrutar!"
-          }
-    ],
-        
-    "imagenes" :[
-        {
-            "id":"209",
-            "nombre":"Pollo a la naranja",
-            "url":"https://i.ibb.co/8MTX9wC/pollo.jpg"
-        },
-        {
-            "id":"210",
-            "nombre":"Empanadas",
-            "url":"https://i.ibb.co/251wQdz/colombian-beef-and-pork-empanadas.jpg"
-        },
-        {
-            "id":"211",
-            "nombre":"Ratatouille",
-            "url":"https://i.ibb.co/4mXHGM9/ratatouille.jpg"
-        },
-        {
-            "id":"214",
-            "nombre":"Bandejapaisa",
-            "url":"https://i.ibb.co/rwBZycs/blog-col-bandeja-paisa1.webp"
-        }
-    ]
-
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Juan",
+      "apellidos": "Pérez",
+      "roll": "cliente",
+      "email": "@tetestst",
+      "password": "password",
+      "Direccion": "Cll9 #56-40",
+      "tel": "3401023042"
+    },
+    {
+      "id": 1,
+      "nombre": "Pedro",
+      "apellidos": "Pérez",
+      "roll": "cliente",
+      "email": "test2@test",
+      "password": "password",
+      "Direccion": "Cll9 #56-40",
+      "tel": "3401023042"
+    },
+    {
+      "id": 1,
+      "nombre": "Nicolas",
+      "apellidos": "Tello",
+      "roll": "usuario",
+      "email": "nicolas@gmail.com",
+      "password": "password",
+      "Direccion": "Cll20 #96-40",
+      "tel": "3201023042"
+    }
+  ],
+  "chefs": [
+    {
+      "id": "1",
+      "nombre": "Marco",
+      "apellidos": "Pérez",
+      "roll": "chef",
+      "descripcion": "Marco, el artista de la pizza: Transforma simples ingredientes en obras maestras de sabor italiano. ",
+      "url": "https://i.ibb.co/HBLRn0x/Chef-Pizzero.jpg",
+      "email": "test2@test",
+      "password": "password",
+      "Eps": "nuevaeps",
+      "arl": "arlcualquiera",
+      "cma": "cursomanipulacionali.pdf",
+      "tipodeidentidad": "cc",
+      "numdeidentidad": "90134902349"
+    },
+    {
+      "id": "2",
+      "nombre": "Catalina",
+      "apellidos": "Carvajal",
+      "roll": "chef",
+      "descripcion": "Ana,Con dulces creaciones que son auténticas obras de arte, endulza los días de todos los que prueban sus delicias.",
+      "url": "https://i.ibb.co/VmWBhCq/Cocinera-Pancakes.jpg",
+      "email": "Cata@test",
+      "password": "password",
+      "Eps": "nuevaeps",
+      "arl": "arlcualquiera",
+      "cma": "cursomanipulacionali.pdf",
+      "tipodeidentidad": "cc",
+      "numdeidentidad": "90134902349"
+    },
+    {
+      "id": "3",
+      "nombre": "Li",
+      "apellidos": "Carvajal",
+      "roll": "chef",
+      "descripcion": "Li, el chef asiático: Convierte cada plato en una obra maestra que cuenta historias a través de su cocina.",
+      "url": "https://i.ibb.co/P1B4J8P/Chef-Asiatico.jpg",
+      "email": "Lisandro@test",
+      "password": "password",
+      "Eps": "nuevaeps",
+      "arl": "arlcualquiera",
+      "cma": "cursomanipulacionali.pdf",
+      "tipodeidentidad": "cc",
+      "numdeidentidad": "90134902349"
+    },
+    {
+      "id": "4",
+      "nombre": "Maria",
+      "apellidos": "Henao",
+      "roll": "chef",
+      "descripcion": "María: Su cocina no solo alimenta, sino que crea experiencias que perduran",
+      "url": "https://i.ibb.co/X4VLFvY/Se-ora-Horneando.jpg",
+      "email": "Lisandro@test",
+      "password": "password",
+      "Eps": "nuevaeps",
+      "arl": "arlcualquiera",
+      "cma": "cursomanipulacionali.pdf",
+      "tipodeidentidad": "cc",
+      "numdeidentidad": "90134902349"
+    }
+  ],
+  "platos": [
+    {
+      "id": "1",
+      "Nombre": "Ratatouille",
+      "url": "https://i.ibb.co/4mXHGM9/ratatouille.jpg",
+      "categoria": "vegetariana",
+      "Descripcion": "Esta receta originaria de Francia se ha popularizado a diferentes regiones del mundo¿y cómo no?",
+      "Ingredientes": [
+        "1 frasco de Salsa Pomodoro",
+        "2 dientes de ajo finamente picados",
+        "4 cucharadas de cebolla cabezona finamente picada",
+        "1 Zucchini amarillo mediano",
+        "1 Zucchini verde mediano",
+        "1 berenjena delgada y larga (también puedes usar 2 que sean de tamaño mediano)",
+        "2 pimentones rojos o naranjas pequeños",
+        "3 tomates chontos grandes",
+        "2 tallos de tomillo",
+        "2 ½ cucharadas de Aceite Olivetto",
+        "Sal y pimienta al gusto",
+        "Hojas pequeñas de albahaca"
+      ],
+      "preparacion": "Precalienta el horno a 375°F (190°C.). Sofríe la cebolla y el ajo en una sartén, rociada con aceite Olivetto®. Mezcla el sofrito con la Salsa Pomodoro y viértela en el fondo de una refractaria redonda u ovalada en la que vayas a hacer tu Ratatouille. Corta la berenjena en tajadas muy delgadas, espolvoréales un poco de sal y ponlas en una rejilla o en un colador para que escurran. Corta los zucchinis y el pimentón en tajadas (procura que sean del mismo grosor que las berenjenas). Organiza los vegetales en la refractaria poniendo una tajada de cada uno e intercalándolos. Empieza por la parte exterior hasta llenar la primera hilera. Continúa con la siguiente fila de vegetales hasta que llenes el círculo, y asegúrate de poner los vegetales que hagan falta para llenar la superficie. Rocía generosamente con el aceite de oliva y espolvorea tomillo, sal y pimienta. Recorta un círculo de papel parafinado de forma tal que quede ajustado en el centro de la refractaria y con el que puedas cubrir toda la superficie. Hornea por 40 50 minutos. Para finalizar, pon hojas de albahaca por encima del Ratatouille para decorar.",
+      "Tiempo": "1 o 2 días con anterioridad"
+    },
+    {
+      "id": "2",
+      "Nombre": "Empanadas Colombianas",
+      "url": "https://i.ibb.co/251wQdz/colombian-beef-and-pork-empanadas.jpg",
+      "categoria": "colombianadas",
+      "Descripcion": "Empanada de la ancestral cocina colombianas, receta centenaria con masa crujiente y relleno sabroso. Tradición en cada mordisco.",
+      "Ingredientes": [
+        "Para el Relleno:",
+        "1 Kg carne especial para desmechar (Falda o Peceto)",
+        "1/2 kg papas de primera",
+        "1 cucharada sal",
+        "3 cucharadas aceite",
+        "1/2 Kg cebolla (usa la variedad que quieras) finamente picada",
+        "Pimentón dulce y especias al gusto (triguisar colombiano)",
+        "1/2 taza (100 gr) tomate finamente picado (sin piel y sin semillas)",
+        "1/2 cucharada sal",
+        "1/2 taza (25 gr) cilantro finamente picado (opcional)",
+        "1/4 cucharadita comino en polvo",
+        "Para la masa:",
+        "6 tazas (1500 ml) agua templada",
+        "1 cubito caldo de carne",
+        "Al gusto especias sazonadoras",
+        "1 cucharada colorante",
+        "1 cucharada sal",
+        "2 cucharadas mantequilla ablandada",
+        "6 tazas (1 kg) harina de maíz pre-cocida (para arepas)",
+        "2 cucharadas almidón de Yuca (mandioca)",
+        "1 huevo",
+        "1 Jugo de 1 limón",
+        "c/n Aceite para Freír",
+        "Ají picante (encurtido) y limón para acompañar"
+      ],
+      "preparacion": "Paso a paso\nPaso 1\nPreferiblemente el día anterior.Lave las papas con esponja y/o lejía de cocina. Agréguelas a una olla, cúbralas con suficiente agua y agregue la sal. Cocínelas por 25 minutos a fuego medio o hasta que estén blandas.Cuando las papas estén listas, escúrralas y déjelas reposar, luego ponlas en la nevera.\nPaso 2\nCocinar la carne condimentada al gusto en una olla exprés por cerca de 25 minutos. dejar reposar y desmechar a mano o con un tenedor. Reservar\nPaso 3\nCuando las papas estén frías rallarlas o triturarlas\nPaso 4\nPara hacer la masa, coloque el agua templada en un recipiente, agregue el almidón de yuca, el colorante y sazonador, el cubito de caldo de pollo, la sal, y la mantequilla. Añade la harina de maíz y dejar que el agua la absorba completamente.\nPaso 5\nRevuelva y amase bien para mezclar todos los ingredientes. Añada el huevo. En el amasado puede añadirle el limón e incluso un chorrito de brandy.\nPaso 6\nPreparar un sofrito (guiso) añadiendo el aceite en una sartén a fuego medio. Añade la cebolla y dejar pochar (coge un color brillante). Agregue el ajo, el tomate, el pimentón dulce, el color o azafrán y las especias en polvo, la sal, el cilantro y el comino. Cocinar este guiso por unos 15 minutos.\nPaso 7\nIntegrar la carne desmechada y dejar cocinar a fuego bajo por 5-10 minutos, añadir la papa rallada y mezclar hasta integrar todos los ingredientes. Dejar reposar el relleno\nPaso 8\nPara armar las empanadas colocar una bolita de masa entre dos pedazos de plástico o una prensa tortillera o pataconera y presionarla, debe quedar como una arepa redonda delgada. Si lo hace con el plástico puede ayudarse de un rodillo o una botella.\nPaso 9\nAgregue una cucharada de relleno a la masa. Doble el círculo de la masa a la mitad para formar una media luna. Corte el borde de esta media luna con un molde corta pasta o una taza. Así queda formada la empanada y la sellará al mismo tiempo. Otra forma de armar las empanadas es sellando el borde con los de dedos y luego doblarlo hacia adentro para que esté más seguro.\nPaso 10\nA medida que vamos armando las empanadas las vamos fritando en una freidora con suficiente aceite pre-calentado (180ºC). También las pueden freír en una olla o sartén en el fogón a temperatura medio-alto. Frite las empanadas hasta que estén doradas. Luego escúrreles el aceite.\nPaso 11\nSírvelas con ají picante o guacamole o alguna salsa al gusto. Y Buen Provecho !!!!",
+      "Tiempo": "1 o 2 días con anterioridad"
+    },
+    {
+      "id": "3",
+      "Nombre": "Pollo a la naranja con ajonjolí",
+      "url": "https://i.ibb.co/8MTX9wC/pollo.jpg",
+      "categoria": "cerdo y pollo",
+      "Descripcion": "Pollo a la naranja: fusión asiática que deslumbra. Jugoso pollo con salsa agridulce, un viaje exquisito de sabores sorprendentes.",
+      "Ingredientes": [
+        "1 pechuga de pollo cortada en cubos medianos (453 g) cortada en cubos",
+        "1/2 cucharadita de SAZONADOR NATURISIMO MAGGI® (3 g)",
+        "1/2 taza de fécula de maíz (60 g)",
+        "2 huevos (100 g)",
+        "1 taza de harina de trigo (125 g)",
+        "1 taza de aceite para freír (250 ml)",
+        "1 taza de Jugo de naranja (250 ml)",
+        "1/2 cucharada de Jengibre fresco, finamente picado (5 g)",
+        "1 cucharada de miel (20 ml)",
+        "1 cucharadita de ajonjolí blanco (3 g)",
+        "1 cucharadita de ajonjolí negro (3 g)"
+      ],
+      "preparacion": "Paso 1: Marina los trozos de pollo\n1.  Pon los cubos de pechuga en un tazón, junto con el SAZONADOR NATURISIMO MAGGI® y marina hasta integrar bien.\nPaso 2: Empaniza los cubos de pollo\n2.  En un tazón pon la fécula, en otro los huevos batidos y en otro la harina de trigo.\n3.  Pasa cada cubo de pollo, primero por la fécula, seguido del huevo y por último de la harina; así hasta terminar.\nPaso 3: Calienta el aceite\n4.  Calienta el aceite en una sartén de fondo alto, por 10 minutos a fuego medio; sofríe los cubos de pollo hasta que estén bien dorados y crocantes. Retira y pon en papel absorbente para retirar el exceso de grasa.\nPaso 4: Prepara la salsa\n5.  En una olla pequeña, añade el jugo de naranja, el jengibre y la miel, lleva a fuego alto revolviendo de vez en cuando y cocina hasta que la salsa reduzca a la mitad.\nPaso 5: Termina la preparación\n6.  Agrega los cubos de pollo empanizados a la sartén de la salsa, deja al fuego por 2 minutos más y espolvorea el ajonjolí, blanco y el ajonjolí negro.\nPaso 6: Sirve\n7.  Sirve el pollo al ajonjolí y acompaña con una porción de arroz y una porción de ensalada.",
+      "Tiempo": "null"
+    },
+    {
+      "id": "4",
+      "Nombre": "Bandeja Paisa",
+      "url": "https://i.ibb.co/rwBZycs/blog-col-bandeja-paisa1.webp",
+      "categoria": "colombianadas",
+      "Descripcion": "Bandeja Paisa: tesoro culinario de Colombia. Carnes, frijoles, arroz, aguacate y plátano, un festín abundante que celebra tradiciones y sabores auténticos.",
+      "Ingredientes": [
+        "1 diente de ajo",
+        "sal al gusto",
+        "4 huevos",
+        "aceite",
+        "200 gramos de cebolla cabezona",
+        "3 unidades de tomate",
+        "2 aguacates",
+        "1 hoja de laurel",
+        "4 chorizos",
+        "1 libra de arroz",
+        "1 pizca de comino",
+        "1 libra de chicharrón",
+        "2 plátanos maduros",
+        "350 gramos de carne picada de ternera",
+        "1 libra de frijol cargamanto",
+        "4 arepas de maíz"
+      ],
+      "preparacion": "Paso 1 / 7\nEl día anterior dejar reposar en un recipiente con agua los frijoles.\n\nPaso 2 / 7\nPara preparar el arroz, agregamos 2 tazas de arroz y el doble de agua, es decir, 4 tazas de agua. Cuando el agua hierva añadir el arroz y la hoja de laurel. Cocinar a fuego medio durante 15 minutos. Apagar el fuego y dejar reposar cinco minutos tapando el recipiente.\n\nPaso 3 / 7\nPara los plátanos vamos a preparar una sartén con aceite. Sacar tajadas a los plátanos y freír hasta que estén dorados, luego dejar reposar en un plato con papel absorbente o de cocina.\n\nPaso 4 / 7\nProcedemos a preparar el hogao. Corta la cebolla y el tomate en dados, picar el ajo en trocitos muy pequeños. Sofreír la cebolla en aceite durante 4 minutos, sazonar con sal y agregar el tomate, incorporar el ajo y el comino, mezclar bien y cocinar durante 2 minutos.\n\nPaso 5 / 7\nEscurrir los frijoles y llevarlos a la olla de presión, añadir el hogao. Cubre con agua y dejar cocinar por 30 minutos aproximadamente.\n\nPaso 6 / 7\nEn una sartén cocinar la carne y el chorizo hasta que estén bien dorados. Luego retirar y en la misma sartén freír los huevos. En otra sartén freír los chicharrones.\n\nPaso 7 / 7\nPara montar la bandeja paisa, colocamos el arroz, los frijoles, las tajadas, la carne picada, el chorizo, los chicharrones y el huevo (arriba del arroz). Cortar el aguacate y adicionar las arepas de maíz y ¡listo a disfrutar!"
+    }
+  ],
+  "imagenes": [
+    {
+      "id": "209",
+      "nombre": "Pollo a la naranja",
+      "url": "https://i.ibb.co/8MTX9wC/pollo.jpg"
+    },
+    {
+      "id": "210",
+      "nombre": "Empanadas",
+      "url": "https://i.ibb.co/251wQdz/colombian-beef-and-pork-empanadas.jpg"
+    },
+    {
+      "id": "211",
+      "nombre": "Ratatouille",
+      "url": "https://i.ibb.co/4mXHGM9/ratatouille.jpg"
+    },
+    {
+      "id": "214",
+      "nombre": "Bandejapaisa",
+      "url": "https://i.ibb.co/rwBZycs/blog-col-bandeja-paisa1.webp"
+    }
+  ]
 }

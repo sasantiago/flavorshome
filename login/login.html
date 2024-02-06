@@ -50,7 +50,7 @@
                         <label class="form-label" id="idLabel">Correo</label>
                         <input
                           type="email"
-                          id="idEmail"
+                          id="correo"
                           class="form-control"
                           placeholder="Correo electrónico"
                         />
@@ -62,7 +62,7 @@
                         >
                         <input
                           type="password"
-                          id="idPassword"
+                          id="password"
                           class="form-control"
                         />
                       </div>
@@ -75,6 +75,13 @@
                           >
                             Log in
                           </button>
+
+                          <label id="resultado" class="resultado"></label>
+                             <div id="error">
+
+                             </div>
+                              </label>
+ 
                           <a class="text-muted" href="#!"
                             >¿Olvidaste la contraseña?</a
                           >
@@ -87,12 +94,16 @@
                         class="d-flex align-items-center justify-content-center pb-4 gap-2"
                       >
                         <p class="mb-0 me-2">¿No tienes una cuenta?</p>
-                        <button type="button" class="btn" id="btnAccount">
-                          Crea cuenta de usuario
-                        </button>
-                        <button type="button" class="btn" id="btnAccount2">
-                          Crea cuenta de cocinero
-                        </button>
+                        <a href="../HTML/registro.html">
+                          <button type="button" class="btn" id="btnAccount">
+                            Crea cuenta de usuario
+                          </button>
+                        </a>
+                        <a href="../HTML/registro.html">
+                          <button type="button" class="btn" id="btnAccount2">
+                            Crea cuenta de cocinero
+                          </button>
+                        </a>
                       </div>
                     </form>
                   </div>

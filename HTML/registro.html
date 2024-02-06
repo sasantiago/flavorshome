@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../login/login.css">
+    <link rel="stylesheet" href="../css/registro.css">
+    <script src=""></script>
+    <link rel="icon" href="../src/img/logo.png" type="image/x-icon" />
+    <title>Registro</title>
+</head>
+
+<body>
+    <section class="h-100 gradient-form" style="background-color: rgba(221, 238, 238, 0.498)">
+        <div class="container py-5 h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-xl-9">
+                    <div class="card rounded-3 text-black" id="layoutText">
+                        <div class="row">
+                            <div class="col-lg-3 d-flex align-items-center gradient-custom-2">
+                                <img src="../src/img/logo.png" class="w-100" alt="logo" id="banner2" />
+                            </div>
+                            <div class="col-lg-9" id="sectionText">
+                                <div class="form-container">
+                                    <h2 class="text-center mt-3">Formulario de registro</h2>
+                                    <div class="col-12 p-5 ">
+                                        <form>
+                                            <div class="form-group">
+                                                <label for="documentId">Documento de identidad</label>
+                                                <input type="text" class="form-control" id="documentId"
+                                                    placeholder="Ingrese su documento de identidad" />
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="firstName">Nombres</label>
+                                                <input type="text" class="form-control" id="firstName"
+                                                    placeholder="Ingrese su nombre o nombres" />
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="lastName">Apellidos</label>
+                                                <input type="text" class="form-control" id="lastName"
+                                                    placeholder="Ingrese su apellido o apellidos" />
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="password">Roll</label>
+                                                <input type="text" class="form-control" id="roll"
+                                                    placeholder="Digite su contraseña" />
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="phone">Email</label>
+                                                <input type="tel" class="form-control" id="email"
+                                                    placeholder="Digite su número telefónico" />
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="email">Password</label>
+                                                <input type="password" class="form-control" id="password"
+                                                    placeholder="Ingrese su correo electrónico" />
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="address">Dirección de residencia</label>
+                                                <input type="text" class="form-control" id="adress"
+                                                    placeholder="Ingrese su dirección de residencia" />
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="address">telefono</label>
+                                                <input type="text" class="form-control" id="tel"
+                                                    placeholder="Ingrese su roll cliente o chef" />
+                                            </div>
+                                            <a href="../login/login.html" class="d-flex align-items-center justify-content-center">
+                                                <button type="button" class="btn btn-block fa-lg my-4 w-75"
+                                                    id="idRegistrar" onclick="registrarse()">Registrarse</button>
+                                            </a>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

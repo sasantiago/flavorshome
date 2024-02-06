@@ -97,3 +97,7 @@ input:focus #idLabel{
 #idLabelPass{
     color: #fff;
 }
+
+h6{
+    color: red;
+}
