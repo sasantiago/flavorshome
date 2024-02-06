@@ -7,14 +7,27 @@
   }
 
   #btn8 {
-    background-color: #64875c;
+    background-color: #de6810;
+    border: none;
     color: #fff;
-    margin: 4%;
   }
- 
+  
   #btn8:hover {
     transform: scale(1.03);
   }
+  
+  #btn9 {
+    background-color: #64875c;
+    border: none;
+    color:#fff ;
+  }
+  
+  #btn9:hover {
+    transform: scale(1.03);
+  }
+
+
+  
 
   .iconos{
     display: flex;

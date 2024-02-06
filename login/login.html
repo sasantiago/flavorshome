@@ -45,6 +45,14 @@
                                             placeholder="Contraseña" />
                                         </div>
 
+                                        <div class="input-group mb-3">
+                                            <select class="form-select" id="loginSelect">
+                                              <option selected>Loguearse como...</option>
+                                              <option value="1">Usuario</option>
+                                              <option value="2">Cocinero</option>
+                                            </select>
+                                          </div>
+
                                         <a href="../HTML/index.html" class="d-flex align-items-center justify-content-center">
                                             <div class="text-center pt-1 mb-5 pb-1">
                                                 <button class="btn btn-block fa-lg mb-3 w-50" type="button" id="idLogin"
@@ -54,6 +62,7 @@
                                                 <a href="#!">¿Olvidaste la contraseña?</a>
                                             </div>
                                         </a>
+
 
                                         <div id="idError"></div>
 
@@ -74,8 +83,7 @@
                 </div>
             </div>
         </div>
-    </section>
-    <script src="login.js"></script>
+    </section>  
     <script>
         function autenticarUsuario() {
             let email = document.getElementById("idEmail").value;
