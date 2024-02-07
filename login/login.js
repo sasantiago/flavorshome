@@ -49,22 +49,30 @@ function autenticarUsuario() {
   fetch("http://localhost:3000/usuarios")
     .then((r) => r.json())
     .then((data) => {
-      filtro = data.filter(function (d) {
-        return (d.email == email && d.password == password);
+      let filtro = [];
+      data.forEach(element => {
+        //console.log(element);
+        filtro = data.filter(function (d) {
+          return (d.email == email && d.password == password);
+        }); 
       });
 
-    if (filtro!=''){
-          location.href = "../HTML/index.html";
-          localStorage.setItem("autenticado","si");
-        } 
-        else {
-          console.log("error");
-          errores+=`<h6>Correo o contraseña incorrectos</h6>`
-        } 
-      error.innerHTML=errores;
-    } 
-    
-  )};
+      console.log(filtro);
+
+      if (filtro!=''){
+        location.href = "../HTML/index.html";
+        localStorage.setItem("autenticado","si");
+      } 
+      else {
+        console.log("error");
+        errores+=`<h6>Correo o contraseña incorrectos</h6>`
+      } 
+         error.innerHTML=errores;
+         
+       
+    })
+
+};
 
   function search() {
     const q = document.getElementById('searchBanner').value;

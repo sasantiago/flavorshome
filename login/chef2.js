@@ -36,10 +36,17 @@ function renderizarDetallesPlato(element) {
             </center>
             <p>${element.preparacion}</p>
 
-            <div class="col-md-2">
-                <button type="button" class="btn btn-success">Success</button>
-                <button type="button" class="btn btn-warning">Warning</button>
-            </div>
+            <div class="d-flex justify-content-center mb-5 gap-3">
+              <a href="categorias.html">
+                <button type="button" class="btn py-3 px-4" id="btnPreparacion1">
+                  categorias
+              </a>
+              <a href="../HTML/8.html">
+                <button type="button" class="btn py-3 px-4" id="btnPreparacion2">
+                  Contáctanos
+              </a>
+              </button>
+            </div>  
         </div>
         `;
         root.innerHTML = template;

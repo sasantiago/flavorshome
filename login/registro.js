@@ -17,11 +17,11 @@ function registrarse(){
             id:identidad.value,
             nombres:nombre.value,
             apellidos:apellido.value,
-            contraseñas:contraseña.value,
+            password:contraseña.value,
             tels:tel.value,
-            emails:email.value,
+            email:email.value,
             direcccions:direcccion.value,
-            rols:rol.value
+            rols:rol.value  
         })
         
     })

@@ -3,6 +3,7 @@ var cocinero = "";
 chefs1 = document.getElementById('chefs1');
 root = document.getElementById('root');
 platox = localStorage.getItem('plato');
+cardchef =localStorage.getItem('cardchef');
 
 function loadDishes() {
   fetch(`http://localhost:3000/platos/`).then(r => r.json()).then(d => {
@@ -67,7 +68,7 @@ function loadchef() {
     d.forEach(data => {
       cocinero += `
    <div class="col-md-3">
-     <a href="5.1.html">
+     <a href="5.1.html?"  onclick="localStorage.setItem('cardchef', '${data.id}');">
        <div class="card h-100" id="cardChef" style="width: 18rem">
          <img src="${data.url}" class="card-img-cocinero" alt="platillo" />
        </a>

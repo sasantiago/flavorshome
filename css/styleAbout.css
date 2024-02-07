@@ -1,43 +1,48 @@
-
 .header-background2 {
-    background-color: black;
+  background-color: black;
 }
 
 
-#btnAbout1 {
-    background-color: #de6810;
-    border: none;
-    color: #fff;
-  }
-  
-  #btnAbout1:hover {
-    transform: scale(1.03);
-  }
-  
-  #btnAbout2 {
-    background-color: #64875c;
-    border: none;
-    color:#fff ;
-  }
-  
-  #btnAbout2:hover {
-    transform: scale(1.03);
-  }
+#btnPreparacion1 {
+  background-color: #de6810;
+  border: none;
+  color: #fff;
+  padding: 2% 4%;
+}
 
-  a {
-    color: inherit;
-    text-decoration: none;
-  }
+#btnPreparacion1:hover {
+  transform: scale(1.03);
+}
 
-  #sectionImage {
-    background-image: url("../src/img/pizza-4282169.jpg");
-    background-size: cover;
-    background-position: center;
-    margin: 0;
-    padding: 0;
-    height: 85vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+#btnPreparacion2 {
+  background-color: #64875c;
+  border: none;
+  color:#fff ;
+  padding: 2% 4%;
+}
+
+#btnPreparacion2:hover {
+  transform: scale(1.03);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#sectionImage {
+  background-image: url("../src/img/pizza-4282169.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#idPAbout2{
+padding: 5%;
 }

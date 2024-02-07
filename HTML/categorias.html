@@ -39,7 +39,7 @@
           </nav>
         </div>
         <div class="col-4 d-flex justify-content-end gap-2">
-          <a href="../login/login.js">
+          <a href="../login/login.html">
             <button type="button" class="btn btn-primary py-3 px-5 btn-sm" id="btn1">
               Ingresar
             </button>
@@ -341,24 +341,15 @@
     <!-- Footer -->
   </section>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script>
-    $(document).ready(function () {
-      // Calcula el porcentaje de desplazamiento
-      $(window).scroll(function () {
-        var scroll = $(window).scrollTop();
-        var windowHeight = $(window).height();
-        var documentHeight = $(document).height();
-        var scrollPercent = (scroll / (documentHeight - windowHeight)) * 100;
-
-        // Cambia el color de fondo del overlay cuando el usuario ha desplazado más del 20%
-        if (scrollPercent > 20) { // Cambia este valor según tus necesidades
-          $('#barra').css('background-color', 'rgba(0, 0, 0, 0.8)');
-        } else {
-          $('#barra').css('background-color', 'rgba(0, 0, 0, 0.5)');
-        }
-      });
-    });
-  </script>
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'es', includedLanguages: 'es,en,eu,gl,fr,it,pt,de', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true}, 'google_translate_element');
+            }
+    </script>
+    
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="../login/home.js" defer></script>
 </body>
+
 
 </html>

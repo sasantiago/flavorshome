@@ -11,7 +11,7 @@
       "tel": "3401023042"
     },
     {
-      "id": 1,
+      "id": 2,
       "nombre": "Pedro",
       "apellidos": "Pérez",
       "roll": "cliente",
@@ -21,7 +21,7 @@
       "tel": "3401023042"
     },
     {
-      "id": 1,
+      "id": "3",
       "nombre": "Nicolas",
       "apellidos": "Tello",
       "roll": "usuario",
@@ -29,6 +29,46 @@
       "password": "password",
       "Direccion": "Cll20 #96-40",
       "tel": "3201023042"
+    },
+    {
+      "id": "1010147710",
+      "nombres": "Santiagos",
+      "apellidos": "Liscano",
+      "password": "password",
+      "email": "mara38@border2.com",
+      "tels": "2104053452",
+      "direcccions": "NN",
+      "rols": "empleado"
+    },
+    {
+      "id": "21323433",
+      "nombres": "Santiago",
+      "apellidos": "Liscano",
+      "password": "vargas123",
+      "tels": "+573188507352",
+      "email": "santiagoliscanovargas@gmail.com",
+      "direcccions": "NN",
+      "rols": "empleado"
+    },
+    {
+      "id": "1000000000",
+      "nombres": "Andrés",
+      "apellidos": "Trujillo",
+      "password": "iwachu777",
+      "tels": "+573504640789",
+      "email": "a.trujillo0830@gmail.com",
+      "direcccions": "NN",
+      "rols": "empleado"
+    },
+    {
+      "id": "0998712",
+      "nombres": "Andres",
+      "apellidos": "Hernandez",
+      "password": "12345",
+      "tels": "12233323",
+      "email": "her@gmail.com",
+      "direcccions": "cll 290 # 44-03",
+      "rols": "cliente"
     }
   ],
   "chefs": [

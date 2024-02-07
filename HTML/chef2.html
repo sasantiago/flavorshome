@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/chef2.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/styleCategories.css">
+    <link rel="stylesheet" href="../css/styleAbout.css">
     <script src="../login/chef2.js" defer></script>
     <title>chef2</title>
 </head>
@@ -52,18 +53,32 @@
                     <img src="../src/img/ing.png" alt="Additional Small Image 2" class="w-25" />
                 </div>
             </div>
+        </div>
     </header>
 
     <!----------------------------------------------------------------------  FIN HEADER -->
-    
-   
+
     <div class="container" id="root">
-       
+        <!-- Aquí se cargarán las cartas de los chefs -->
     </div>
 
     <br>
     <br>
     <!-- container2 -->
+
+    <script>
+        // Esta función se ejecutará cuando la página esté completamente cargada
+        document.addEventListener('DOMContentLoaded', function () {
+            // Calcula la posición a la que deseas desplazarte (por ejemplo, 30%)
+            var scrollPosition = window.innerHeight * 0.85;
+
+            // Realiza el desplazamiento suave a la posición deseada
+            window.scrollTo({
+                top: scrollPosition,
+                behavior: 'smooth'
+            });
+        });
+    </script>
     
 </body>
 
