@@ -1,6 +1,6 @@
 cardschef = document.getElementById('cardschef');
 cardschef2 = document.getElementById('cardschef2');
-
+cardchefs = localStorage.getItem('cardchef');
 function loadcardschef() {
     fetch('http://localhost:3000/chefs/')
         .then(result => result.json())
