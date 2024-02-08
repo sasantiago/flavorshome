@@ -1,33 +1,5 @@
-
-.col-md-12 {
-   height:100vh;
-   width: 100%;
-    margin: 0;
-    padding: 0;
-    object-fit: cover;
-    align-items: center;
-}
-
-.cards{
-    background-color: white;
-    border-radius: 50%;
-}
-#images{
-    border-radius:100%;
-}
-#food{
-    width: 100%;
-    object-fit: cover;
-}
-.imgbaner{
-    width: 100%;
-    height: 100vh;
-    object-fit:cover;
-    
-}
-
 .header-background2{
-  background-image: url("../src/img/Captura\ desde\ 2024-01-23\ 19-14-28.png");
+  background-image: url("../src/img/backgroundHeader2.png");
   background-size: cover;
   background-position: center;
   margin: 0;
@@ -39,51 +11,63 @@
   justify-content: center;
 }
 
-.imagen-background {
+#images{
+  border-radius:100%;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border-radius: 100%;
+}
+
+.pagination a.active {
+  background-color: #64875c;
+  color: white;
+}
+
+#btn4 {
+  background-color: #64875c;
+  border: none;
+  margin: 5%;
+}
+
+.cardTitle{
+  font-size: 24px;
+  color: #301500;
+}
+
+.overlayDos {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
 }
 
-.down.col-md-3{
-    height: 80%;
+#barra{
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  z-index: 1;
 }
-.pagination a {
-    color: black;
-    float: left;
-    padding: 8px 16px;
-    text-decoration: none;
-    transition: background-color .3s;
-    border-radius: 100%;
-  }
-  .pagination a.active {
-    background-color: dodgerblue;
-    color: white;
-  }
-.col-md-9{
-    background-color: rgb(179, 179, 179);
+
+hr{
+  border: solid 2px #ccc;
 }
-  
-.card-img-top {
-    width: 100%;
-    height: 15vw;
-    object-fit: cover;
-  }
-  
-#btn4 {
-    background-color: #64875c;
-    border: none;
-    margin: 5%;
-  }
-  
-.cardTitle{
-    font-size: 24px;
-    color: #301500;
-  }
 
-.white{
-    background-color: white;
-    height: 70px;
-    width: 100%;
+#imgGeneral{
+  border-radius: 2rem;
+}
 
+#btn6{
+  background-color: #64875c;
+  width: 40%;
+  color: #fff;
+}
+
+#btn6:hover{
+  transform: scale(1.03);
 }

@@ -7,7 +7,9 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="login.css" />
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js" defer></script>
+
     <link rel="icon" href="../src/img/logo.png" type="image/x-icon" />
     <title>Flavors</title>
   </head>
@@ -19,7 +21,7 @@
     >
       <div class="container py-5 h-100">
         <div class="row d-flex justify-content-center align-items-center h-100">
-          <div class="col-xl-10">
+          <div class="col-xl-10"> 
             <div class="card rounded-3 text-black" id="layoutText">
               <div class="row g-0">
                 <div
@@ -64,8 +66,6 @@
                           class="form-control"
                         />
                       </div>
-
-                      <a href="../HTML/index.html">
                         <div class="text-center pt-1 mb-5 pb-1">
                           <button
                             class="btn btn-block fa-lg mb-3"
@@ -103,30 +103,6 @@
         </div>
       </div>
     </section>
-    <script src="login.js"></script>
-    <script>
-      function autenticarUsuario() {
-        let email = document.getElementById("idEmail").value;
-        let password = document.getElementById("idPassword").value;
-        console.log(email, password);
-
-        fetch("http://localhost:3000/usuarios")
-          .then((r) => r.json())
-          .then((data) => {
-            filtro = data.filter(function (d) {
-              return d.email == email;
-            });
-
-            if (filtro.length > 0) {
-              if (filtro[0].password == password) {
-                window.location.href = "../index.html";
-              } else {
-                console.log("Correo o contraseña incorrectos");
-              }
-            }
-            console.log(filtro);
-          });
-      }
-    </script>
+  
   </body>
 </html>
