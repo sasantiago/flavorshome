@@ -50,8 +50,8 @@ fetch("http://localhost:3000/platos")
     cartas.innerHTML = pcartas;
 });
 
-function search() {
-    let searcher = document.getElementById('search').value;
+function searchCategory() {
+    let searcher = document.getElementById('inputSearch').value;
     console.log(searcher);
     spacesearch = document.getElementById("spacesearch");
 

@@ -1,0 +1,50 @@
+.header-background2 {
+    background-color: black;
+  }
+
+  footer {
+    background-color: #fbfbfb;
+  }
+
+  #btn8 {
+    background-color: #de6810;
+    border: none;
+    color: #fff;
+  }
+  
+  #btn8:hover {
+    transform: scale(1.03);
+  }
+  
+  #btn9 {
+    background-color: #64875c;
+    border: none;
+    color:#fff ;
+  }
+  
+  #btn9:hover {
+    transform: scale(1.03);
+  }
+
+  form{
+    background-color: #fff;
+  }
+
+  
+
+  .iconos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .icono{
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+  }
+
+  .iconosTexto{
+    font-size: 16px;
+  }

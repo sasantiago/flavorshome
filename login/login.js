@@ -37,58 +37,98 @@
 //         }/* else if (email.value != estudiante.correo && password.value == estudiante.contraseña){
 //             document.getElementById("idError").innerHTML = "Correo no válido" //solo de prueba
 //         } */
-//     });
-// }
-function autenticarUsuario() {
-  let email = document.getElementById("correo").value;
-  let password = document.getElementById("password").value;
-  console.log(email, password);
-  let error =document.getElementById("error")
-   var errores='';
+//     }
 
-  fetch("http://localhost:3000/usuarios")
-    .then((r) => r.json())
-    .then((data) => {
-      let filtro = [];
-      data.forEach(element => {
-        //console.log(element);
-        filtro = data.filter(function (d) {
-          return (d.email == email && d.password == password);
-        }); 
-      });
+var loginSelect = document.getElementById.value;
 
-      console.log(filtro);
-
-      if (filtro!=''){
-        location.href = "../HTML/index.html";
-        localStorage.setItem("autenticado","si");
-      } 
-      else {
-        console.log("error");
-        errores+=`<h6>Correo o contraseña incorrectos</h6>`
-      } 
-         error.innerHTML=errores;
+if (loginSelect == 1) {
+  function autenticarUsuario() {
+    let email = document.getElementById("correo").value;
+    let password = document.getElementById("password").value;
+    console.log(email, password);
+    let error =document.getElementById("error")
+     var errores='';
+  
+    fetch("http://localhost:3000/usuarios")
+      .then((r) => r.json())
+      .then((data) => {
+        let filtro = [];
+        data.forEach(element => {
+          //console.log(element);
+          filtro = data.filter(function (d) {
+            return (d.email == email && d.password == password);
+          }); 
+        });
+  
+        console.log(filtro);
+  
+        if (filtro!=''){
+          localStorage.setItem(`chefname`,`${filtro.id}`);
+          localStorage.setItem("autenticado","siiiiiii");
+          console.log("FUNCIONA");
+          location.href = "../HTML/index.html";
+        } 
+        else {
+          console.log("error");
+          errores+=`<h6>Correo o contraseña incorrectos</h6>`
+        } 
+           error.innerHTML=errores;
+      })
+  
+  };
+} else {
+  function autenticarUsuario() {
+    let email = document.getElementById("correo").value;
+    let password = document.getElementById("password").value;
+    console.log(email, password);
+    let error =document.getElementById("error")
+     var errores='';
+  
+    fetch("http://localhost:3000/chefs")
+      .then((r) => r.json())
+      .then((data) => {
+        let filtro = [];
+        data.forEach(element => {
+          //console.log(element);
+          filtro = data.filter(function (d) {
+            return (d.email == email && d.password == password);
+          }); 
+        });
+  
+        console.log(filtro);
+  
+        if (filtro!=''){
+          location.href = "../HTML/solicitud.html";
+          localStorage.setItem("autenticado","si");
+        } 
+        else {
+          console.log("error");
+          errores+=`<h6>Correo o contraseña incorrectos</h6>`
+        } 
+           error.innerHTML=errores;
+           
          
-       
-    })
+      })
+  
+  };
 
-};
+}
 
-  function search() {
-    const q = document.getElementById('searchBanner').value;
-    console.log(q);
+//   function search() {
+//     const q = document.getElementById('searchBanner').value;
+//     console.log(q);
     
-    fetch("http://localhost:3000/platos")
-        .then(result => result.json())
-        .then(data => {
-           var filtro =  data.filter(element => {
-           return element.Nombre.includes (q)
-          });
-            console.log(filtro);
-            });
+//     fetch("http://localhost:3000/platos")
+//         .then(result => result.json())
+//         .then(data => {
+//            var filtro =  data.filter(element => {
+//            return element.Nombre.includes (q)
+//           });
+//             console.log(filtro);
+//             });
         
   
-}
+// }
 function deletes(id){
   console.log(id);
   fetch(`"http://localhost:3000/platos"/${id}`,{

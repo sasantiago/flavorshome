@@ -33,8 +33,8 @@ function loadDishes() {
 }
 
 
-function searchCategory() {
-  let q = document.getElementById('inputSearch').value;
+function searcher() {
+  let q = document.getElementById('searchBanner').value;
   console.log(q);
   spacesearch = document.getElementById("spacesearch");
 

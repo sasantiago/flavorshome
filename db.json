@@ -76,7 +76,7 @@
       "id": "1",
       "nombre": "Marco",
       "apellidos": "Pérez",
-      "especialidad":"MEDITERRANEO",
+      "especialidad": "MEDITERRANEO",
       "roll": "chef",
       "descripcion": "Marco, el artista de la pizza: Transforma simples ingredientes en obras maestras de sabor italiano. ",
       "url": "https://i.ibb.co/HBLRn0x/Chef-Pizzero.jpg",
@@ -93,7 +93,7 @@
       "nombre": "Catalina",
       "apellidos": "Carvajal",
       "roll": "chef",
-      "especialidad":"PASTELERIA",
+      "especialidad": "PASTELERIA",
       "descripcion": "Ana,Con dulces creaciones que son auténticas obras de arte, endulza los días de todos los que prueban sus delicias.",
       "url": "https://i.ibb.co/VmWBhCq/Cocinera-Pancakes.jpg",
       "email": "Cata@test",
@@ -108,7 +108,7 @@
       "id": "3",
       "nombre": "Li",
       "apellidos": "Carvajal",
-      "especialidad":"COMIDA ORIENTAL",
+      "especialidad": "COMIDA ORIENTAL",
       "roll": "chef",
       "descripcion": "Li, el chef asiático: Convierte cada plato en una obra maestra que cuenta historias a través de su cocina.",
       "url": "https://i.ibb.co/P1B4J8P/Chef-Asiatico.jpg",
@@ -124,7 +124,7 @@
       "id": "4",
       "nombre": "Maria",
       "apellidos": "Henao",
-      "especialidad":"PLATOS LOCALES",
+      "especialidad": "PLATOS LOCALES",
       "roll": "chef",
       "descripcion": "María: Su cocina no solo alimenta, sino que crea experiencias que perduran",
       "url": "https://i.ibb.co/X4VLFvY/Se-ora-Horneando.jpg",
@@ -135,6 +135,56 @@
       "cma": "cursomanipulacionali.pdf",
       "tipodeidentidad": "cc",
       "numdeidentidad": "90134902349"
+    },
+    {
+      "id": "1111111",
+      "nombres": "keyner",
+      "apellidos": "Fernandez",
+      "password": "1234",
+      "tels": "3901902301",
+      "email": "keyner@lksea.com",
+      "direcccions": "nn",
+      "rols": "chef"
+    },
+    {
+      "id": "10101",
+      "nombres": "carlos",
+      "apellidos": "Cachique",
+      "password": "password",
+      "tels": "21221",
+      "email": "carlosche@gmail.com",
+      "direcccions": "nn",
+      "rols": "chef"
+    },
+    {
+      "id": "1213323",
+      "nombres": "Lorenzo",
+      "apellidos": "",
+      "password": "1234",
+      "tels": "",
+      "email": "Carlos1222@gmail.com",
+      "direcccions": "",
+      "rols": ""
+    },
+    {
+      "id": "",
+      "nombres": "",
+      "apellidos": "",
+      "password": "1234",
+      "tels": "",
+      "email": "tren@gmail.com",
+      "direcccions": "",
+      "rols": ""
+    },
+    {
+      "id": "",
+      "nombres": "",
+      "apellidos": "",
+      "password": "1234",
+      "tels": "",
+      "email": "corrreo@gmail.com",
+      "direcccions": "",
+      "rols": ""
     }
   ],
   "platos": [
