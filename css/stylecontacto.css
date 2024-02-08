@@ -1,0 +1,97 @@
+#btnContacto1 {
+    background-color: #de6810;
+    border: none;
+    color: #fff;
+  }
+  
+  #btnContacto1:hover {
+    transform: scale(1.03);
+  }
+  
+  #btnContacto2 {
+    background-color: #64875c;
+    border: none;
+    color: #fff;
+  }
+  
+  #btnContacto2:hover {
+    transform: scale(1.03);
+  }
+  
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .header-background2 {
+    background-color: black;
+  }
+  
+  footer {
+    background-color: #ccc;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  
+  .contact-container input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  #sectionImage {
+    background-image: url("../src/img/pizza-4282169.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #sectionImage2 {
+    background-image: url("../src/img/repostero.png");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .iconos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .icono {
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+  }
+  
+  .iconosTexto {
+    font-size: 16px;
+  }
+  
+  .formulario2 {
+    padding: 6% 8% 4% 8%;
+  }
+  
+  .form-label{
+    display: flex;
+    text-align: start;
+    padding-left: 2%;
+  }
+  
+  #idPAbout2{
+    padding: 5%;
+  }
