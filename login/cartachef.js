@@ -23,4 +23,31 @@ function loadorigincardschef(cardchef) {
         });
     
 }
+
+function searcher() {
+    let r = document.getElementById('searchchef').value;
+    console.log(r);
+    spacesearch = document.getElementById("spacesearch");
+  
+    fetch("http://localhost:3000/chefs")
+  
+      .then(result => result.json())
+      .then(data => {
+        var filtro = data.filter(element => {
+          return element.nombre.includes(r);
+        });
+  
+        if (r.length > 0) {
+          let s = '';
+          filtro.forEach(cardchef => {
+            s += `<a href="../HTML/chef2.html?id=${cardchef.id}">
+                    <button onclick="localStorage.setItem('plato', '${cardchef.id}');" type="button" class="btn btn-link">${plato.Nombre}</button>
+                  </a>`;
+          });
+          spacesearch.innerHTML = s;
+        } else if (r.length <= 0) {
+          spacesearch.innerHTML = '';
+        }
+      });
+  }
 loadorigincardschef(cardchefs);
